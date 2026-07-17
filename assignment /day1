@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 Portfolio</title>
+</head>
+<body>
+ 
+    <h1>My Day 1 Portfolio</h1>
+    <p>This is my first day of the internship!</p>
+    <p>Here are some of the things I learned today:</p>
+    <ul>
+        <li>HTML structure and tags</li>
+        <li>Basic CSS styling</li>
+        <li>Creating a simple webpage</li>
+    </ul>
+ 
+    <h2>My Goals for the Internship</h2>
+    <p>During this internship, I aim to:</p>
+    <ol>
+        <li>Enhance my web development skills</li>
+        <li>Work on real-world projects</li>
+        <li>Collaborate with experienced developers</li>
+    </ol>
+ 
+    <h3>Projects</h3>
+    <p>Here are some of the projects I plan to work on during the internship:</p>
+    <ul>
+        <li>Portfolio Website</li>
+        <li>Blog Platform</li>
+        <li>E-commerce Website</li>
+        <li>TaskFlow App</li>
+        <li>Weather Dashboard</li>
+    </ul>
+ 
+    <h4>Portfolio Website</h4>
+    <p>Portfolio websites are a great way to showcase your skills and projects. I plan to
+        create a portfolio website that highlights my work and achievements during the internship.</p>
+ 
+    <h4>Blog Platform</h4>
+    <p>A blog platform is a great way to share knowledge and insights. I plan to create a
+        blog platform that allows me to write and publish articles during the internship.</p>
+ 
+    <h4>E-commerce Website</h4>
+
+<p>An e-commerce website is a platform for buying and selling products online. I plan to
+        create an e-commerce website that allows users to browse and purchase products during the internship.</p>
+ 
+    <h4>TaskFlow App</h4>
+    <p>TaskFlow is a fake project idea for a to-do list app with drag-and-drop task reordering
+        and local storage support, so tasks are saved even after closing the browser.</p>
+ 
+    <h4>Weather Dashboard</h4>
+    <p>Weather Dashboard is a fake project idea for a tool that fetches live forecasts and
+        displays them in clean, minimal cards for quick daily checks.</p>
+ 
+    <h3>My Learning Journey</h3>
+    <p>Here are the steps I have followed so far in learning web development:</p>
+    <ol>
+        <li>Learned the basics of HTML structure and semantic tags</li>
+        <li>Studied CSS styling, including layout basics</li>
+        <li>Built this Day 1 portfolio page to practice combining HTML and CSS</li>
+        <li>Started exploring JavaScript for interactivity</li>
+        <li>Planning to learn a frontend framework like React next</li>
+    </ol>
+ 
+    <h5>Contact Information</h5>
+    <p>During the internship, I will be working under the guidance of experienced developers
+        and mentors. Feel free to connect with me:</p>
+
+
+
+
+    <p>GitHub: <a href="https://github.com/titu1234aa-pixel/SW_CSE_B1.4_Internship03" target="_blank" rel="noopener noreferrer">Naveena on GitHub</a></p>
+ 
+
+
+    <p>-----------------------------------</p>
+    <p>Thank you for visiting my portfolio!</p>
+    <p>-----------------------------------</p>
+ 
+</body>
+</html>
+ 
