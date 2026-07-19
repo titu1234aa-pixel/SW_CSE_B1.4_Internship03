@@ -3,282 +3,391 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Keerthi N | Portfolio</title>
-<meta name="description" content="Portfolio of Keerthi N, Engineering Student, Web
-Developer and Programmer.">
-<meta name="keywords" content="Keerthi, Portfolio, HTML, CSS, JavaScript, C
-Programming, Python, Engineering">
-<meta name="author" content="Keerthi N">
+<title>NAVEENA.K | Portfolio</title>
+<meta name="description" content="Portfolio of NAVEENA.K, Engineering Student, Web Developer and Programmer.">
+<meta name="keywords" content="NAVEENA, Portfolio, HTML, CSS, JavaScript, C Programming, Python, Engineering">
+<meta name="author" content="NAVEENA .K">
 <!-- Open Graph -->
-<meta property="og:title" content="Keerthi N Portfolio">
+<meta property="og:title" content="NAVEENA Portfolio">
 <meta property="og:description" content="Engineering Student Portfolio">
 <meta property="og:type" content="website">
 <meta property="og:image" content="profile.jpg">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Keerthi N Portfolio">
+<meta name="twitter:title" content="NAVEENA Portfolio">
 <meta name="twitter:description" content="Engineering Student Portfolio">
 <meta name="twitter:image" content="profile.jpg">
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
-body{
-background:#f4f4f4;
-color:#333;
-line-height:1.6;
+body {
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
 }
-header{
-background:#4B0082;
-color:white;
-padding:20px;
-text-align:center;
+header {
+  background: #4B0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-nav{
-background:#222;
-padding:12px;
-text-align:center;
+nav {
+  background: #222;
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-nav a{
-color:white;
-text-decoration:none;
-margin:15px;
-font-weight:bold;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px 0;
 }
-nav a:hover{
-color:yellow;
+nav a:hover,
+nav a:focus {
+  color: yellow;
 }
-section{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.2);
+section {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
-h2{
-color:#4B0082;
-margin-bottom:15px;
+h2 {
+  color: #4B0082;
+  margin-bottom: 15px;
 }
-figure{
-text-align:center;
+figure {
+  text-align: center;
 }
-figure img{
-border-radius:50%;
+figure img {
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  background: #ddd;
 }
-figcaption{
-margin-top:10px;
-font-style:italic;
+figcaption {
+  margin-top: 10px;
+  font-style: italic;
 }
-table{
-width:100%;
-border-collapse:collapse;
-margin-top:15px;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
 }
-table,th,td{
-border:1px solid black;
+table, th, td {
+  border: 1px solid black;
 }
-th{
-background:#4B0082;
-color:white;
+th {
+  background: #4B0082;
+  color: white;
 }
-th,td{
-padding:10px;
-text-align:center;
+th, td {
+  padding: 10px;
+  text-align: center;
 }
-form{
-margin-top:20px;
+form {
+  margin-top: 20px;
 }
-label{
-font-weight:bold;
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+fieldset legend {
+  font-weight: bold;
+  color: #4B0082;
+  padding: 0 5px;
 }
 input[type=text],
 input[type=email],
 input[type=password],
 input[type=date],
 select,
-textarea{
-width:100%;
-padding:10px;
-margin-top:5px;
-margin-bottom:15px;
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
 }
-input[type=file]{
-margin-bottom:15px;
+input[type=file] {
+  margin-bottom: 5px;
+}
+input[type=radio],
+input[type=checkbox] {
+  margin-right: 6px;
 }
 input[type=submit],
-input[type=reset]{
-background:#4B0082;
-color:white;
-border:none;
-padding:10px 20px;
-cursor:pointer;
-margin-right:10px;
+input[type=reset] {
+  background: #4B0082;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
 }
-iframe{
-display:block;
-margin:auto;
-margin-top:20px;
-max-width:100%;
+input[type=reset] {
+  background: #777;
 }
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:15px;
-margin-top:20px;
+input[type=submit]:hover {
+  background: #350061;
+}
+#formStatus {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+iframe {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 100%;
+  border: none;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    display: inline-block;
+    margin: 6px 8px;
+    font-size: 14px;
+  }
+  section {
+    margin: 12px;
+    padding: 15px;
+  }
+  table, th, td {
+    font-size: 13px;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
 }
 </style>
 </head>
 <body>
+
 <header>
-<h1>Keerthi N</h1>
-<p>Engineering Student | Web Developer | Programmer</p>
+  <h1>NAVEENA</h1>
+  <p>Engineering Student | Web Developer | Programmer</p>
 </header>
+
 <nav>
-<a href="#about">About</a>
-<a href="#profile">Profile</a>
-<a href="#education">Education</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-<a href="#register">Register</a>
+  <a href="#about">About</a>
+  <a href="#profile">Profile</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="#register">Register</a>
 </nav>
+
 <section id="about">
-<h2>About Me</h2>
-<p>
-Hello! I am <b>Keerthi N</b>, a First Year Engineering student passionate about Web
-Development, Programming and Artificial Intelligence.
-</p>
+  <h2>About Me</h2>
+  <p>
+    Hello! I am <b>NAVEENA</b>, a First Year Engineering student passionate about Web
+    Development, Programming and Artificial Intelligence.
+  </p>
 </section>
+
 <section id="profile">
-<h2>Profile Photo</h2>
-<figure>
-<img src="profile.jpg"
-alt="Portrait of Keerthi N"
-width="220">
-<figcaption>My Profile Photo</figcaption>
-</figure>
+  <h2>Profile Photo</h2>
+  <figure>
+    <img src="profile.jpg" alt="Portrait of NAVEENA.K" width="220" height="220"
+         onerror="this.onerror=null;this.src='https://via.placeholder.com/220x220?text=Add+profile.jpg';">
+    <figcaption>My Profile Photo</figcaption>
+  </figure>
 </section>
+
 <section id="education">
-<h2>Education</h2>
-<ul>
-<li>B.E. Computer Science Engineering - First Year</li>
-<li>PUC Completed</li>
-<li>SSLC Completed</li>
-</ul>
+  <h2>Education</h2>
+  <ul>
+    <li>B.E. Computer Science Engineering - First Year</li>
+    <li>PUC Completed</li>
+    <li>SSLC Completed</li>
+  </ul>
 </section>
+
 <section id="skills">
-<h2>Skills Table</h2>
-<table>
-<tr>
-<th>Technology</th>
-<th>Proficiency</th>
-<th>Years of Experience</th>
-</tr>
-<tr>
-<td>HTML</td>
-<td>Intermediate</td>
-<td>1</td>
-</tr>
-<tr>
-<td>CSS</td>
-<td>Intermediate</td>
-<td>1</td>
-</tr>
-<tr>
-<td>JavaScript</td>
-<td>Beginner</td>
-<td>1</td>
-</tr>
-<tr>
-<td>C Programming</td>
-<td>Intermediate</td>
-<td>2</td>
-</tr>
-<tr>
-<td>Python</td>
-<td>Beginner</td>
-<td>1</td>
-</tr>
-</table>
+  <h2>Skills Table</h2>
+  <table>
+    <caption style="text-align:left; margin-bottom:8px; font-weight:bold;">Technical skills and experience</caption>
+    <tr>
+      <th scope="col">Technology</th>
+      <th scope="col">Proficiency</th>
+      <th scope="col">Years of Experience</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Intermediate</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Intermediate</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Beginner</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>C Programming</td>
+      <td>Intermediate</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Beginner</td>
+      <td>1</td>
+    </tr>
+  </table>
 </section>
+
 <section id="projects">
-<h2>Projects</h2>
-<ol>
-<li>Personal Portfolio Website</li>
-<li>AI Powered Leaf Disease Detection</li>
-<li>Line Following Robot</li>
-</ol>
-<h3>Project Video</h3>
-<iframe width="560"
-height="315"
-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-title="Project Video"
-allowfullscreen>
-</iframe>
-<p>Your browser does not support embedded videos.</p>
+  <h2>Projects</h2>
+  <ol>
+    <li>Personal Portfolio Website</li>
+    <li>AI Powered Leaf Disease Detection</li>
+    <li>Line Following Robot</li>
+  </ol>
+  <h3>Project Video</h3>
+  <!-- Replace VIDEO_ID_HERE with your actual YouTube video ID -->
+  <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+          title="Project Video"
+          allowfullscreen>
+  </iframe>
+  <p>Your browser does not support embedded videos.</p>
 </section>
+
 <section id="contact">
-<h2>Contact</h2>
-<p><b>Email:</b> keerthi@example.com</p>
-<p>
-<b>GitHub:</b>
-<a href="https://github.com/Keerthi-n142">
-https://github.com/Keerthi-n142
-</a>
-</p>
-<p>
-<b>LinkedIn:</b>
-<a href="https://www.linkedin.com/in/keerthi-n-a1050b38b">
-https://www.linkedin.com/in/keerthi-n-a1050b38b
-</a>
-</p>
+  <h2>Contact</h2>
+  <p><b>Email:</b> <a href="mailto:titu1234aa@gmail.com">titu1234aa@gmail.com</a></p>
+  <p>
+    <b>GitHub:</b>
+    <a href="https://github.com/titu1234aa-pixel" target="_blank" rel="noopener noreferrer">
+      https://github.com/titu1234aa-pixel
+    </a>
+  </p>
 </section>
+
 <section id="register">
-<h2>Registration Form</h2>
-<form>
-<label>Full Name</label>
-<input type="text" placeholder="Enter your name" required>
-<label>Email</label>
-<input type="email" placeholder="Enter your email" required>
-<label>Password</label>
-<input type="password" placeholder="Enter password" required>
-<label>Date of Birth</label>
-<input type="date">
-<label>Gender</label>
-<br><br>
-<input type="radio" name="gender"> Male
-<input type="radio" name="gender"> Female
-<input type="radio" name="gender"> Other
-<br><br>
-<label>Skills</label>
-<br><br>
-<input type="checkbox"> HTML
-<input type="checkbox"> CSS
-<input type="checkbox"> JavaScript
-<input type="checkbox"> Python
-<br><br>
-<label>Department</label>
-<select>
-<option>Select Department</option>
-<option>Computer Science</option>
-<option>Information Science</option>
-<option>Electronics</option>
-<option>Mechanical</option>
-</select>
-<label>Address</label>
-<textarea rows="5" placeholder="Enter your address"></textarea>
-<label>Upload Resume</label>
-<input type="file">
-<input type="submit" value="Register">
-<input type="reset" value="Reset">
-</form>
+  <h2>Registration Form</h2>
+  <form id="registerForm">
+    <div class="form-group">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6">
+    </div>
+
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+    </div>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" id="genderMale" name="gender" value="Male">
+      <label for="genderMale" style="display:inline; font-weight:normal;">Male</label><br>
+      <input type="radio" id="genderFemale" name="gender" value="Female">
+      <label for="genderFemale" style="display:inline; font-weight:normal;">Female</label><br>
+      <input type="radio" id="genderOther" name="gender" value="Other">
+      <label for="genderOther" style="display:inline; font-weight:normal;">Other</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Skills</legend>
+      <input type="checkbox" id="skillHtml" name="skills" value="HTML">
+      <label for="skillHtml" style="display:inline; font-weight:normal;">HTML</label><br>
+      <input type="checkbox" id="skillCss" name="skills" value="CSS">
+      <label for="skillCss" style="display:inline; font-weight:normal;">CSS</label><br>
+      <input type="checkbox" id="skillJs" name="skills" value="JavaScript">
+      <label for="skillJs" style="display:inline; font-weight:normal;">JavaScript</label><br>
+      <input type="checkbox" id="skillPy" name="skills" value="Python">
+      <label for="skillPy" style="display:inline; font-weight:normal;">Python</label>
+    </fieldset>
+
+    <div class="form-group">
+      <label for="department">Department</label>
+      <select id="department" name="department">
+        <option value="">Select Department</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Information Science">Information Science</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Mechanical">Mechanical</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="5" placeholder="Enter your address"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="resume">Upload Resume</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+    </div>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+    <p id="formStatus" role="status"></p>
+  </form>
 </section>
+
 <footer>
-<p>&copy; 2026 Keerthi N. All Rights Reserved.</p>
+  <p>&copy; 2026 NAVEENA.K. All Rights Reserved.</p>
 </footer>
+
+<script>
+  // Basic client-side handling since there's no backend endpoint yet.
+  // Replace this with a real fetch()/form action once you have a server to receive submissions.
+  document.getElementById('registerForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('formStatus').textContent =
+      'Thanks! This demo form doesn\'t submit anywhere yet — connect it to a backend or form service (e.g. Formspree) to collect real entries.';
+  });
+</script>
+
 </body>
 </html>
